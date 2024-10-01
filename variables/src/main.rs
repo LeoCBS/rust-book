@@ -13,6 +13,25 @@ fn main() {
     expression();
     let x = plus_one(5);
     println!("The value of plus one is: {x}");
+    contro_flow();
+    let_if();
+}
+
+fn let_if() {
+    let condition = true;
+    let number = if condition { 5 } else { 6 };
+
+    println!("The value of number is: {number}");
+}
+
+fn contro_flow(){
+    let number = 3;
+
+    if number < 5 {
+        println!("condition was true");
+    } else {
+        println!("condition was false");
+    }
 }
 
 fn plus_one(x: i32) -> i32 {

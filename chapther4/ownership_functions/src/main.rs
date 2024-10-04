@@ -53,7 +53,7 @@ fn calculate_len(s :&String) -> usize{
 }*/
 
 //mutable ref
-fn main(){
+/*fn main(){
     let mut name = String::from("leonardo");
     change(&mut name);
     println!("{name}");
@@ -61,5 +61,14 @@ fn main(){
 
 fn change(name: &mut String){
     name.push_str(" borges")
+}*/
+
+//dangling ref
+/*fn main() {
+    let reference_to_nothing = dangle();
 }
 
+fn dangle() -> &String {
+    let s = String::from("leonardo");
+    &s // error because variable s will out of scope, and will be droped
+}*/

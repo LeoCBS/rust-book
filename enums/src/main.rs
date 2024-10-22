@@ -103,9 +103,9 @@ fn main() {
     }
     println!("counttt {count}!");
 
-    if coin == Coin::Quarter(USState::Alabama){
+    //if coin == Coin::Quarter(USState::Alabama){
         println!("counttt {count}!")
-    }
+    //}
 
 }
 

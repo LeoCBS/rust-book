@@ -1,3 +1,5 @@
+fn main(){
+}
 /*fn main() {
     let s = String::from("hello");  // s comes into scope
 

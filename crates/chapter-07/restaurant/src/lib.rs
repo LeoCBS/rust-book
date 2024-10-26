@@ -1,6 +1,6 @@
 // nested paths
 use std::{cmp::Ordering, io};
-use std::io::{self, Write};
+use std::io::{Write};
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right

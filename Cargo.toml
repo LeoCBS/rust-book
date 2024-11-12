@@ -16,5 +16,5 @@ members = [
   "crates/chapter-03/variables",
   "crates/chapter-05/rectangles",
   "crates/chapter-05/structs",
-  "crates/chapter-10", "crates/chapter-11/adder",
+  "crates/chapter-10", "crates/chapter-11/adder", "crates/chapter-12/minigrep",
 ]

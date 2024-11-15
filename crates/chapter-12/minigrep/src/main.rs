@@ -4,9 +4,7 @@ use std::{env, error::Error, fs, process};
 use minigrep::Config;
 
 fn main() {
-    let args: Vec<String> = env::args().collect();
-
-    let config = Config::build(&args).unwrap_or_else(|err| {
+    let config = Config::build(env::args()).unwrap_or_else(|err| {
         //print error to standard Error instead to standard output
         eprintln!("Problem parsing arguments: {err}");
         process::exit(1);

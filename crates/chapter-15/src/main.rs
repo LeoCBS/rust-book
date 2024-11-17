@@ -22,9 +22,9 @@ struct MyBox<T>(T);
 impl<T> Deref for MyBox<T> {
     type Target = T;
 
-    fn new(x: T) -> MyBox<T> {
+    /*    fn new(x: T) -> MyBox<T> {
         MyBox(x)
-    }
+    }*/
     fn deref(&self) -> &Self::Target {
         &self.0
     }

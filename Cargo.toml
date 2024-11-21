@@ -25,5 +25,5 @@ members = [
   "crates/chapter-17",
   "crates/chapter-17-blog",
   "crates/chapter-17-blog-type-state",
-  "crates/chapter-20/hello",
+  "crates/chapter-20/hello", "crates/chapter-20/webserver-thread",
 ]

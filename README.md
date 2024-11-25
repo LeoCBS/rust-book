@@ -2,4 +2,6 @@
 
 Repository to develop and study examples found on the book [The rust Programming Language](https://doc.rust-lang.org/stable/book).
 
-//TODO adding a TOC following rust book indice
+- [Getting Started](chapter-01/hello_cargo)
+- [Getting Started](chapter-01/hello_cargo)
+

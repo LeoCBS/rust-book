@@ -4,14 +4,14 @@ Repository to develop and study examples found on the book [The rust Programming
 
 - [1 - Getting Started](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-01/hello_cargo)
 - [2 - Programming a Guessing Game](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-02/guessing_game)
-- [3 - Common Programming Concepts]()
+- 3 - Common Programming Concepts
   - [loops](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-03/loops)
   - [variables](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-03/variables)
-- [4 - Understanding Ownership]()
+- 4 - Understanding Ownership
   - [ownership](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-04/ownership)
   - [ownership_functions](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-04/ownership_functions)
   - [slice](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-04/slice)
-- [5 - Using Structs to Structure Related Data]()
+- 5 - Using Structs to Structure Related Data
   - [rectangles](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-05/rectangles)
   - [structs](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-05/structs)
 - [6 - Enums and Pattern Matching](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-06/enums)
@@ -28,5 +28,6 @@ Repository to develop and study examples found on the book [The rust Programming
 - [16 - Fearless Concurrency](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-16/)
 - [17 - Object Oriented Programming Features of Rust](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-17/)
   - [17.2 - Object Oriented Programming Features of Rust - Blog](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-17-blog/)
-- [20 - Final Project: Building a Multithreaded Web Server](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-20/hello)
-  - [20 - Final Project: Building a Multithreaded Web Server](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-20/webserver-thread)
+  - [17.3 - Object Oriented Programming Features of Rust - Blog type state](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-17-blog-type-state/)
+- [20 - Final Project: Building a Multithreaded Web Server - Single thread](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-20/hello)
+  - [20.1 - Final Project: Building a Multithreaded Web Server](https://github.com/LeoCBS/rust-book/tree/main/crates/chapter-20/webserver-thread)
